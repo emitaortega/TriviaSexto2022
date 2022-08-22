@@ -34,17 +34,16 @@ ImageButton botgeografia, botbiologia,botmatematica, botortografia,botseñales, 
             intent2.putExtra("tema", "matemática");
             startActivity(intent2);
         });
-
-        botbiologia.setOnClickListener(view -> {
-            intent2.putExtra("tema", "biologia");
+        botseñales.setOnClickListener(view -> {
+            intent2.putExtra("tema", "señales de transito");
             startActivity(intent2);
         });
-        botgeografia.setOnClickListener(view -> {
-            intent2.putExtra("tema", "geografía");
+        botortografia.setOnClickListener(view -> {
+            intent2.putExtra("tema", "ortografia");
             startActivity(intent2);
         });
-        botmatematica.setOnClickListener(view -> {
-            intent2.putExtra("tema", "matemática");
+        botmedioambiente.setOnClickListener(view -> {
+            intent2.putExtra("tema", "medioambiente");
             startActivity(intent2);
         });
 
