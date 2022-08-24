@@ -52,6 +52,7 @@ public class Controller {
             p9 = new Pregunta(context.getString(R.string.Pregunta2), "https://media.discordapp.net/attachments/970748327568224289/978349549892546560/ama.jpg?width=1164&height=655",context.getString(R.string.op12),context.getString(R.string.op15),context.getString(R.string.op17),context.getString(R.string.op112),4);//el entero es el numero de respuesta correcta
             p10 = new Pregunta(context.getString(R.string.Pregunta2), "https://media.discordapp.net/attachments/970748327568224289/978349549330501702/rojo.jpg",context.getString(R.string.op110),context.getString(R.string.op13),context.getString(R.string.op17),context.getString(R.string.op114),2);//el entero es el numero de respuesta correcta
                 break;
+
         case "biología":
             p1 = new Pregunta(context.getString(R.string.p1),
                     //"https://educacion30.b-cdn.net/wp-content/uploads/2016/04/animales-destacada.jpg",
@@ -272,6 +273,46 @@ public class Controller {
                     context.getString(R.string.opcion3_23),
                     context.getString(R.string.opcion4_23),
                     1);
+
+
+        case "ortografia":
+            p1= new Pregunta("¿Como se dice hay, ahí o ay cuando hablamos de un lugar?", "",
+                    "hay","ahi","ay","hai", 2);
+            p2 = new Pregunta("¿qué palabra está bien escrita?", "",
+                    "herbir","hervir","erbir","ervir", 2);
+            p3= new Pregunta("marca la palbra correcta", "",
+                    "hablar","ablar","havlar","avlar", 1);
+            p4= new Pregunta("cual de las siguientes frases es correcta", "",
+                    "a ver si vienes a verme","haber si vienes a verme","aber si vienes a verme","aver si vienes a verme",1);
+            p5= new Pregunta("¿cual se utiliza para hacer una pregunta?", "",
+                    "porque","por que","por què","porquè",3);
+            p6= new Pregunta("¿cual es la correcta?", "",
+                    "osea", "hosea", "ocea", "o sea", 4);
+
+
+        case "medioambiente":
+            p1= new Pregunta("¿Cuántos son los colores de los distintos cestos de reciclaje?", "https://cuestionessociales.files.wordpress.com/2012/06/recicla.jpg?w=640",
+                    "4","2","3","6", 4);
+            p2 = new Pregunta("¿Qué es la huella hídrica?", "https://img.freepik.com/vector-gratis/vector-doodle-medio-ambiente-concepto-energia-renovable_53876-126615.jpg?w=2000",
+                    "El volumen total de agua dulce que se utiliza para la producción de servicios y bienes de un territorio","El nivel de contaminación del agua que tiene un país","El transcurso de un lago","Ninguna es correcta", 1);
+            p3= new Pregunta("El uso medio de una bolsa de plástico es de 15 minutos pero, ¿cuánto tarda en degradarse?", "",
+                    "300 años","400 años","500 años","100 años", 3);
+            p4= new Pregunta("Los dispositivos eléctricos conectados a la red eléctrica, pero apagados, no consumen energía", "https://s3.amazonaws.com/static.om.anigamy.net/static.biennatural.com.ar/App/Article/consejos-para-ahorrar-energia-y-cuidar-el-medioambiente-6242-mainImage-0.jpg",
+                    "Verdadero","Falso","50% de la energia","No sabe",2);
+            p5= new Pregunta("¿Cuánto debería durar un smartphone para compensar su daño ambiental?", "https://deresiduos.s3.amazonaws.com/uploads/news/image/22404/impacto_ambiental_movil.jpg",
+                    "232 años","326 años","450 años","167 años",1);
+            p6= new Pregunta("¿Qué material se usa como alternativa para producir papel?", "https://s.yimg.com/ny/api/res/1.2/mUBpSscEGQf6Koje70B3yA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-images/2019-11/ca153f80-04c5-11ea-999f-e887296aea7d",
+                    "Carbonato cálcico más resina", "Papel de hierba", "Ambas son correctas", "Ninguna es correcta", 3);
+            p7= new Pregunta("¿Qué es el efecto invernadero?", "https://okdiario.com/img/2016/11/08/efecto-invernadero-3-620x497.jpg",
+                    "El resultado de ahorrar energía durante el invierno", "El efecto de la acumulación de calor dentro de un espacio concreto", "El fenómeno que produce una elevación de la temperatura media de la Tierra y del agua que la recubre como consecuencia de la acumulación de gases de efecto invernadero en la atmósfera que retienen la radiación solar", "Ninguna es correcta", 3);
+            p8= new Pregunta("Según los últimos estudios, ¿cuándo llegaría el punto crítico del deshielo en la Antártida?", "https://www.clarin.com/img/2020/05/29/antartida-detectan-un-alto-riesgo___mFtbXH--5_1200x630__1.jpg",
+                    "2030", "2045","2060", "2055", 3);
+            p9= new Pregunta("¿Qué ciudades no están preparadas para afrontar el cambio climático?\n", "https://s03.s3c.es/imag/_v0/770x420/2/8/f/600x400_tierra-planeta-derritiendose-calentamiento-global-cambio-climatico-getty-770x420.jpg",
+                    "Las grandes ciudades del hemisferio sur", "Las grandes ciudades costeras", "Las grandes ciudades de los países en vías de desarrollo", "Ninguna es correcta", 2);
+            p10= new Pregunta("Los árboles de las ciudades nos regalan grandes estampas en otoño pero tienen otra función. ¿Cuál?", "https://2.bp.blogspot.com/-SnfIDjmBagQ/XMsUObrI0wI/AAAAAAAAAHM/LcN07WqugZEqVXdw3JiduEDTzqmOuxmmwCLcBGAs/s1600/gallery_detail_zonas_verdes_ciudades-1-768x448.png",
+                    "Aseguran un suministro constante y seguro de agua", "Protegen a las ciudades de inundaciones", "Ambas son correctas", "Ninguna es correcta", 3);
+
+
             preguntas.add(p11);
             preguntas.add(p12);
             preguntas.add(p13);
